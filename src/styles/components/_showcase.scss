@@ -1,0 +1,34 @@
+.showcase{
+  background-image: url('../../images/desktop/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: #fff;
+}
+
+//.overlay{
+//
+//  color: white;
+//  padding: 45px;
+//  //margin: 300px 100px 0;
+//  position: absolute;
+//  border: 2px solid white;
+//  line-height: 2px;
+//  letter-spacing: 1.3px;
+//  font-weight: 400;
+//}
+
+.showcase .overlay{
+  display: flex;
+  align-items: center;
+  height: 700px;
+  padding: 0 70px;
+}
+
+.showcase .overlay h1{
+  font-size: 46px;
+  line-height: 1.2;
+  border: 2px solid #fff;
+  padding: 20px;
+}
